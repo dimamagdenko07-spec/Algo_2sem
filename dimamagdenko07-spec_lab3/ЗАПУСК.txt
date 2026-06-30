@@ -1,0 +1,4 @@
+bash tests/run_tests.sh ./path_processor
+gcc graph.c lab3/list/generic.c lab3/vector/generic.c lab4/hash_table/generic.c -I. -lm -o path_processor
+./path_processor data test.txt test_out.txt
+python find_ways.py --interactive
